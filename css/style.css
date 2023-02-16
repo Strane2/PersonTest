@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Martian+Mono:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #99abc7;
+}
+
+main {
+  margin: 0 auto;
+  width: 850px;
+  padding: 10px;
+  font-family: 'Martian Mono', monospace;
+  font-size: small;
+}
+
+section {
+  height: auto;
+  background-color: #a7b8d4;
+  margin-top: 25px;
+}
+
+
+
+header {
+  margin: 30px;
+  border-style: none;
+  border-radius: 100px;
+  background-color: #a7b8d4;
+  text-align: center;
+}
+
+nav {
+  display: block;
+  background-color: aqua;
+  text-decoration: underline;
+  border-style: solid;
+  border-width: 2px;
+  border-top-width: 0x;
+  width: 846px;
+  height: auto;
+  border-radius: 100px;
+}
+
+ul {
+  border-radius: 100px;
+}
+
+nav li a:hover {
+  background-color: #2a384f;
+  color: white;
+}
+
+nav li a {
+  display: block;
+  width: auto;
+  background-color: #99abc7;
+  text-decoration: none;
+  padding: 4px 71px;
+  color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #99abc7;
+  color: black;
+}
+
+nav li {
+  text-align: center;
+  float: left;
+  color: black;
+}
+
+nav li .active {
+  background-color: #5f79a3;
+  color: white;
+}
+
+.linka {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.linka:hover {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  margin-top: -15px;
+}
+
+
